@@ -1,0 +1,93 @@
+#container{
+width:80%;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+margin:auto;
+margin-top: 20px;
+
+min-height:95vh;
+
+border-radius: 10px;
+
+}
+.mainBox {
+    width:80%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     margin-left: 10%;
+     padding:20px;
+     border-radius: 10px;
+     margin-top: 10px;
+}
+.change_content:after{
+    content:'';
+    animation: changetext 20s infinite linear ;
+    color:rgb(163, 2, 128);
+
+  }
+  @keyframes changetext{
+      0%{content:"English";}
+      5%{content:"Arabic";}
+      10%{content:"Chinese";}
+      15%{content:"Finnish";}
+      20%{content:"French";}
+      25%{content:"German";}
+      30%{content:"Hindi";}
+      35%{content:"Indonesian";}
+      40%{content:"Irish";}
+      45%{content:"Italian";}
+      50%{content:"Japanese";}
+      55%{content:"Korean";}
+      60%{content:"portuguese";}
+      65%{content:"Russian";}
+      75%{content:"Spanish";}
+      85%{content:"Turkish";}
+      95%{content:"Ukranian";}
+      100%{content:"Vietnamese";}
+  }
+#input{
+    width:100%;
+   min-height:87%;
+    font-family: 'Bree Serif', serif;
+    font-size: 23px;
+  border:1px solid white;
+  
+}
+*{
+    font-family: 'Bree Serif', serif;
+
+}
+#button{
+    width:23%;
+    font-size: 23px;
+    background-color: rgb(161, 153, 153);
+    background-image: url("https://cdn.wallpapersafari.com/4/26/EKYbXD.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
+color:rgb(163, 2, 128);
+/* color:black; */
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+body{
+    background-image: url("https://wallpapercave.com/wp/wp7213371.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.text_box{
+    width:100%;
+    min-height:87%;
+     font-family: 'Bree Serif', serif;
+     font-size: 23px;
+     border:0.1px solid white;
+    background-color: white;
+}
+@media only screen and (min-width:0px) and (max-width:320px)
+{
+    #button{
+        font-size: 8px;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:720px)
+{
+    #button{
+        font-size: 10px;
+    }
+}
